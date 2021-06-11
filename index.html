@@ -1,12 +1,16 @@
 <html>
     <head>
         <script src="code.js"></script>
+        <link rel="stylesheet" href="css.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <p>
+        <div>
+            <img src="https://media.tenor.com/images/7765cc6a70f64c349428b4d33e74837a/tenor.gif" />
+            <div>
             <label for="Sides">Choose your number of sides:</label>
-            <p>
+            </div>
+            <div>
             <select id="selectSides" name="Sides">
                 <option value="4">4</option>
                 <option value="6">6</option>
@@ -14,14 +18,15 @@
                 <option value="10">10</option>
                 <option value="20">20</option>
             </select>
-            </p>
-            <p>
+            <br>
+        </div>
+            <div>
             <button id="rollButton" onclick="Roll();">Roll</button>
-            </p>
-        </p>
-        <p>
+            </div>
+        </div>
+        <div>
             <h1 id="result"></h1>
-        </p>
+        </div>
 
     </body>
 </html>
