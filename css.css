@@ -33,20 +33,22 @@ select{
 .dropdown {
     position: relative;
     display: block;
+    
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffcc;
+    background-color: #ff9999;
     min-width: 160px;
     z-index: 1;
+    border-radius: 5px;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
+    color: #663d00;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
