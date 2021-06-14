@@ -7,7 +7,7 @@
     <body>
         <div id="whole">
             <div>
-            <img src="https://media.tenor.com/images/7765cc6a70f64c349428b4d33e74837a/tenor.gif" />
+            <img id="sponge" src="https://media.tenor.com/images/7765cc6a70f64c349428b4d33e74837a/tenor.gif" />
             </div>
             <div>
             <label for="Sides">Choose your number of sides:</label>
@@ -25,10 +25,21 @@
             <div>
             <button id="rollButton" onclick="Roll();">Roll</button>
             </div>
-        </div>
-        <div id="resultDiv">
+        <div class="dropdown hide" id="resultDiv">
+        <div class="dropbtn">
             <h1 id="result"></h1>
+            <div class="dropdown">
+                <div class="dropdown-content">
+                  <a href="#">Keep</a>
+                  <a href="#">Bank</a>
+                  <a onclick="Roll();" href="javascript:void(0);">ReRoll</a>
+                </div>
+              </div>
+            </div>
         </div>
+    </div>
+        
+    
 
     </body>
 </html>
