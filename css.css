@@ -20,7 +20,7 @@ select{
 }
 #resultDiv{
     background-color: #ffffcc;
-    border-radius: 5px;
+    border-radius: 1px;
     width: 50px;
     height: 100px;
     margin-left: auto;
@@ -33,7 +33,6 @@ select{
 .dropdown {
     position: relative;
     display: block;
-    
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -43,7 +42,7 @@ select{
     background-color: #ff9999;
     min-width: 160px;
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 1px;
   }
   
   /* Links inside the dropdown */
@@ -68,4 +67,11 @@ select{
   }
   .show{
     display: block;
+  }
+  h6{
+      font-size: smaller;
+      margin-top: auto;
+      background-color: #663d00;
+      color: #ffffcc;
+      padding-bottom: 5px;
   }
